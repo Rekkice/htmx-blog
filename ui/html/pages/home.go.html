@@ -1,0 +1,13 @@
+{{ define "title" }} Home {{ end }}
+
+{{ define "main" }}
+    <h1 class="text-4xl text-center py-4 border-b border-teal-900">Home page</h1>
+    <p class="text-xl text-center">hi</p>
+    <div hx-get="/" hx-target="next #target">
+        test
+    </div>
+
+    <div id="target">
+
+    </div>
+{{ end }}
